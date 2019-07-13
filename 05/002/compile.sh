@@ -1,0 +1,1 @@
+g++ -O0 -g -std=c++11 main.cpp Game.cpp TextureManager.cpp Player.cpp Enemy.cpp SDLGameObject.cpp InputHandler.cpp MenuState.cpp PlayState.cpp GameStateMachine.cpp MenuButton.cpp -o main `sdl2-config --cflags --libs` -lSDL2_image
